@@ -86,7 +86,11 @@
                                             <constraint firstAttribute="width" constant="34" id="rpd-gE-ijv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gbP-SG-UrB"/>
+                                            <action selector="guessedLetterFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="TjR-pK-cWT"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="en2-89-dnD">
                                         <rect key="frame" x="49" y="0.0" width="150" height="30"/>
@@ -122,7 +126,7 @@
                                 <rect key="frame" x="0.0" y="268.5" width="320" height="300.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="do0-qL-Ibv">
-                                <rect key="frame" x="71" y="131" width="178" height="21"/>
+                                <rect key="frame" x="71" y="131" width="178" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
