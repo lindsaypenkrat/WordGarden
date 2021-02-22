@@ -160,9 +160,12 @@
                     <connections>
                         <outlet property="flowerImageView" destination="gFW-tB-Mrj" id="Ln4-Qd-LIZ"/>
                         <outlet property="gameStatusMessageLabel" destination="Ext-ht-Ure" id="wW3-nL-vfr"/>
+                        <outlet property="guessLetterButton" destination="en2-89-dnD" id="bsN-7G-vkN"/>
+                        <outlet property="guessedLetterTextField" destination="e7K-ik-quP" id="FtJ-30-0LF"/>
                         <outlet property="playAgainButton" destination="Uec-FH-FHz" id="3lZ-LV-HQG"/>
+                        <outlet property="wordBeingRevealedLabel" destination="do0-qL-Ibv" id="YEG-Lh-bMu"/>
                         <outlet property="wordsGuessedLabel" destination="Flb-5X-9FI" id="Oeo-dX-7f1"/>
-                        <outlet property="wordsInGame" destination="NTY-Uy-4dL" id="mYN-Hd-w2w"/>
+                        <outlet property="wordsInGameLabel" destination="NTY-Uy-4dL" id="mYN-Hd-w2w"/>
                         <outlet property="wordsMissedLabel" destination="3na-yl-WK5" id="fbV-fy-87P"/>
                         <outlet property="wordsRemainingLabel" destination="6Co-fh-w2d" id="4oi-EQ-XDp"/>
                     </connections>
